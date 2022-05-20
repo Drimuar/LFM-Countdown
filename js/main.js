@@ -10,7 +10,7 @@ input.addEventListener("input", timeCount);
 function timeCount() {
 	const date = add(new Date(input.value), { hours: timeZone });
 	const durationObject = intervalToDuration({ start: Date.now(), end: date });
-	let untilDate = formatDuration({
+	const untilDate = formatDuration({
 		years: durationObject.years,
 		days: durationObject.days,
 		hours: durationObject.hours,
