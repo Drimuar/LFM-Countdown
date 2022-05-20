@@ -13,8 +13,8 @@ function timeCount() {
 	let day = formatDistanceToNowStrict(date, { unit: "day" }).slice(0, -4);;
 	let obj = {
 		years: +year,
-		days: +day,
-		hours: +hour % 24
+		days: +day % 365,
+		hours: +hour % 24,
 	};
 	let untilDate = formatDuration(obj);
 	output.value = `${untilDate}`
