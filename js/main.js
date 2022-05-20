@@ -1,5 +1,4 @@
-const { format } = require("date-fns");
-import { intervalToDuration, formatDuration, add } from 'date-fns';
+import { format, intervalToDuration, formatDuration, add } from 'date-fns';
 
 const input = document.querySelector('.input');
 const output = document.querySelector('.output');
