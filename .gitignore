@@ -2,3 +2,6 @@
 node_modules/*
 .parcel-cache/*
 dist/*
+.parcel-cache/data.mdb
+dist/index.fbb3188c.js
+dist/index.fbb3188c.js.map
